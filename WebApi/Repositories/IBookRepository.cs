@@ -1,7 +1,7 @@
 ﻿using WebApi.Models.Domain;
 using WebApi.Models.DTO;
 
-namespace WebAPI_simple.Repositories
+namespace WebApi.Repositories
 {
     public interface IBookRepository
     {

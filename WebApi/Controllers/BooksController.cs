@@ -1,21 +1,24 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using WebApi.Data;
+using WebApi.Models.Domain;
 using WebApi.Models.DTO;
-using WebAPI_simple.Repositories;
+using WebApi.Repositories;
 
 namespace WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/")]
     [ApiController]
     public class BooksController : ControllerBase
     {
         private readonly IBookRepository _bookRepository;
 
-        public BooksController(IBookRepository bookRepository)
+        public BooksController(AppDbContext dbContext, IBookRepository bookRepository)
         {
             _bookRepository = bookRepository;
         }
 
-        // GET: api/books/get-all-books
         [HttpGet("get-all-books")]
         public IActionResult GetAll()
         {
@@ -23,59 +26,32 @@ namespace WebApi.Controllers
             return Ok(allBooks);
         }
 
-        // GET: api/books/get-book-by-id/5
-        [HttpGet("get-book-by-id/{id}")]
-        public IActionResult GetBookById(int id)
+        [HttpGet]
+        [Route("get-book-by-id/{id}")]
+        public IActionResult GetBookById([FromRoute] int id)
         {
             var bookWithIdDTO = _bookRepository.GetBookById(id);
-            if (bookWithIdDTO == null)
-            {
-                return NotFound();
-            }
             return Ok(bookWithIdDTO);
         }
-
-        // POST: api/books/add-book
         [HttpPost("add-book")]
         public IActionResult AddBook([FromBody] AddBookRequestDTO addBookRequestDTO)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
             var bookAdd = _bookRepository.AddBook(addBookRequestDTO);
             return Ok(bookAdd);
         }
 
-        // PUT: api/books/update-book-by-id/5
         [HttpPut("update-book-by-id/{id}")]
         public IActionResult UpdateBookById(int id, [FromBody] AddBookRequestDTO bookDTO)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
             var updateBook = _bookRepository.UpdateBookById(id, bookDTO);
-            if (updateBook == null)
-            {
-                return NotFound();
-            }
-
             return Ok(updateBook);
         }
-
-        // DELETE: api/books/delete-book-by-id/5
         [HttpDelete("delete-book-by-id/{id}")]
         public IActionResult DeleteBookById(int id)
         {
             var deleteBook = _bookRepository.DeleteBookById(id);
-            if (deleteBook == null)
-            {
-                return NotFound();
-            }
             return Ok(deleteBook);
         }
+
     }
 }

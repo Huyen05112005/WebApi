@@ -1,14 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
-using WebApi.Data;
+﻿using WebApi.Data;
 using WebApi.Models.Domain;
 using WebApi.Models.DTO;
 
-namespace WebAPI_simple.Repositories
+namespace WebApi.Repositories
 {
     public class SQLBookRepository : IBookRepository
     {
         private readonly AppDbContext _dbContext;
-
         public SQLBookRepository(AppDbContext dbContext)
         {
             _dbContext = dbContext;
@@ -29,15 +27,12 @@ namespace WebAPI_simple.Repositories
                 PublisherName = Books.Publisher.Name,
                 AuthorNames = Books.BookAuthors.Select(n => n.Author.FullName).ToList()
             }).ToList();
-
             return allBooks;
         }
-
         public BookWithAuthorAndPublisherDTO GetBookById(int id)
         {
             var bookWithDomain = _dbContext.Books.Where(n => n.Id == id);
-
-            // Map Domain Model to DTOs
+            //Map Domain Model to DTOs 
             var bookWithIdDTO = bookWithDomain.Select(book => new BookWithAuthorAndPublisherDTO()
             {
                 Id = book.Id,
@@ -51,13 +46,12 @@ namespace WebAPI_simple.Repositories
                 PublisherName = book.Publisher.Name,
                 AuthorNames = book.BookAuthors.Select(n => n.Author.FullName).ToList()
             }).FirstOrDefault();
-
             return bookWithIdDTO;
         }
 
         public AddBookRequestDTO AddBook(AddBookRequestDTO addBookRequestDTO)
         {
-            // Map DTO to Domain Model
+            //map DTO to Domain Model 
             var bookDomainModel = new Book
             {
                 Title = addBookRequestDTO.Title,
@@ -70,8 +64,7 @@ namespace WebAPI_simple.Repositories
                 DateAdded = addBookRequestDTO.DateAdded,
                 PublisherID = addBookRequestDTO.PublisherID
             };
-
-            // Use Domain Model to add Book
+            //Use Domain Model to add Book 
             _dbContext.Books.Add(bookDomainModel);
             _dbContext.SaveChanges();
 
@@ -85,14 +78,12 @@ namespace WebAPI_simple.Repositories
                 _dbContext.BookAuthors.Add(_book_author);
                 _dbContext.SaveChanges();
             }
-
             return addBookRequestDTO;
         }
 
         public AddBookRequestDTO? UpdateBookById(int id, AddBookRequestDTO bookDTO)
         {
             var bookDomain = _dbContext.Books.FirstOrDefault(n => n.Id == id);
-
             if (bookDomain != null)
             {
                 bookDomain.Title = bookDTO.Title;
@@ -104,7 +95,6 @@ namespace WebAPI_simple.Repositories
                 bookDomain.CoverUrl = bookDTO.CoverUrl;
                 bookDomain.DateAdded = bookDTO.DateAdded;
                 bookDomain.PublisherID = bookDTO.PublisherID;
-
                 _dbContext.SaveChanges();
             }
 
@@ -114,7 +104,6 @@ namespace WebAPI_simple.Repositories
                 _dbContext.BookAuthors.RemoveRange(authorDomain);
                 _dbContext.SaveChanges();
             }
-
             foreach (var authorid in bookDTO.AuthorIds)
             {
                 var _book_author = new BookAuthor()
@@ -126,20 +115,16 @@ namespace WebAPI_simple.Repositories
                 _dbContext.BookAuthors.Add(_book_author);
                 _dbContext.SaveChanges();
             }
-
             return bookDTO;
         }
-
         public Book? DeleteBookById(int id)
         {
             var bookDomain = _dbContext.Books.FirstOrDefault(n => n.Id == id);
-
             if (bookDomain != null)
             {
                 _dbContext.Books.Remove(bookDomain);
                 _dbContext.SaveChanges();
             }
-
             return bookDomain;
         }
     }

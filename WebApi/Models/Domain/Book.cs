@@ -18,6 +18,6 @@ namespace WebApi.Models.Domain
         public int PublisherID { get; set; }
         public Publisher Publisher { get; set; }
 
-        public ICollection<BookAuthor> BookAuthors { get; set; }
+        public List<BookAuthor> BookAuthors { get; set; }
     }
 }
