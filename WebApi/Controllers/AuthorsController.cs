@@ -34,32 +34,74 @@ namespace WebApi.Controllers
         }
         [HttpPost]
         [Route("authors")]
-        public IActionResult AddAuthor([FromBody] AddAuthorRequestDTO addAuthorRequestDTO)
+        public IActionResult AddAuthor([FromBody] AddAuthorRequestDTO dto)
         {
-            var author = _authorRepository.AddAuthor(addAuthorRequestDTO);
-            return Ok(author);
+            try
+            {
+                var author = _authorRepository.AddAuthor(dto);
+                return Ok(author);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { message = ex.Message }); // Bài 2
+            }
         }
+
         [HttpPut]
         [Route("update-author-by-id/{id:int}")]
-        public IActionResult UpdateAuthorById([FromRoute] int id, [FromBody] AuthorNoIdDTO authorNoIdDTO)
+        public IActionResult UpdateAuthorById([FromRoute] int id, [FromBody] AuthorNoIdDTO dto)
         {
-            var updatedAuthor = _authorRepository.UpdateAuthorById(id, authorNoIdDTO);
-            if (updatedAuthor == null)
+            try
             {
-                return NotFound();
+                var updated = _authorRepository.UpdateAuthorById(id, dto);
+                if (updated == null) return NotFound();
+                return Ok(updated);
             }
-            return Ok(updatedAuthor);
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
+
         [HttpDelete]
         [Route("delete-author-by-id/{id:int}")]
         public IActionResult DeleteAuthorById([FromRoute] int id)
         {
-            var deletedAuthor = _authorRepository.DeleteAuthorById(id);
-            if (deletedAuthor == null)
+            try
             {
-                return NotFound();
+                var deleted = _authorRepository.DeleteAuthorById(id);
+                if (deleted == null) return NotFound();
+                return Ok(deleted);
             }
-            return Ok(deletedAuthor);
+            catch (InvalidOperationException ex)
+            {
+                // Bài 15: gợi ý
+                return BadRequest(new { message = "Hãy gỡ liên kết trong Book_Author trước khi xóa", detail = ex.Message });
+            }
         }
+
+        #region Private methods 
+        private bool ValidateAddAuthor(AddAuthorRequestDTO addAuthorRequestDTO)
+        {
+            if (addAuthorRequestDTO == null)
+            {
+                ModelState.AddModelError(nameof(addAuthorRequestDTO), $"Please add author data");
+                return false;
+            }
+            if (string.IsNullOrEmpty(addAuthorRequestDTO.FullName))
+            {
+                ModelState.AddModelError(nameof(addAuthorRequestDTO.FullName),
+$"{nameof(addAuthorRequestDTO.FullName)} cannot be null");
+            }
+
+            if (ModelState.ErrorCount > 0)
+            {
+                return false;
+            }
+
+            return true;
+        }
+        #endregion
+
     }
 }

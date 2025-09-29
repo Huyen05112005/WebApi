@@ -1,4 +1,5 @@
-﻿using WebApi.Data;
+﻿using System.Xml.Linq;
+using WebApi.Data;
 using WebApi.Models.Domain;
 using WebApi.Models.DTO;
 
@@ -13,6 +14,9 @@ namespace WebApi.Repositories
         }
         public AddPublisherRequestDTO AddPublisher(AddPublisherRequestDTO addPublisherRequestDTO)
         {
+            var exists = _context.Publishers.Any(p => p.Name.ToLower() == addPublisherRequestDTO.Name.ToLower());
+            if (exists) throw new InvalidOperationException("Publisher name already exists");
+
             var publisherDomainModel = new Publisher
             {
                 Name = addPublisherRequestDTO.Name
@@ -63,6 +67,10 @@ namespace WebApi.Repositories
             var publisher = _context.Publishers.Find(id);
             if (publisher != null)
             {
+                var hasBooks = _context.Books.Any(b => b.PublisherID == id);
+                if (hasBooks)
+                    throw new InvalidOperationException("Cannot delete publisher while books still reference it.");
+
                 publisher.Name = publisherNoIdDTO.Name;
                 _context.SaveChanges();
                 return publisherNoIdDTO;

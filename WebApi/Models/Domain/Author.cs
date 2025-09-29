@@ -8,7 +8,7 @@ namespace WebApi.Models.Domain
         public int Id { get; set; }
         public string FullName { get; set; }
 
-        public List<BookAuthor> BookAuthors { get; set; }
+        public ICollection<BookAuthor> BookAuthors { get; set; }
     }
 
 }

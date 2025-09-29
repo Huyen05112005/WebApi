@@ -34,12 +34,23 @@ namespace WebApi.Controllers
 
         [HttpPost]
         [Route("add-publisher")]
-        public
-            IActionResult AddPublisher([FromBody] Models.DTO.AddPublisherRequestDTO addPublisherRequestDTO)
+        public IActionResult AddPublisher([FromBody] Models.DTO.AddPublisherRequestDTO dto)
         {
-            var publisher = _publisherRepository.AddPublisher(addPublisherRequestDTO);
-            return Ok(publisher);
+            try
+            {
+                var publisher = _publisherRepository.AddPublisher(dto);
+                return Ok(publisher);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return Conflict(new { message = ex.Message });
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
+
         [HttpPut]
         [Route("update-publisher-by-id/{id:int}")]
         public IActionResult UpdatePublisherById(int id, [FromBody] Models.DTO.PublisherNoIdDTO publisherNoIdDTO)
@@ -55,13 +66,16 @@ namespace WebApi.Controllers
         [Route("delete-publisher-by-id/{id:int}")]
         public IActionResult DeletePublisherById(int id)
         {
-            var deletedPublisher = _publisherRepository.DeletePublisherById(id);
-            if (deletedPublisher == null)
+            try
             {
-                return NotFound();
+                var deleted = _publisherRepository.DeletePublisherById(id);
+                if (deleted == null) return NotFound();
+                return Ok(deleted);
             }
-            return Ok(deletedPublisher);
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
-
     }
 }
