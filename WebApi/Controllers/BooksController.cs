@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApi.Data;
@@ -18,7 +19,7 @@ namespace WebApi.Controllers
         {
             _bookRepository = bookRepository;
         }
-
+        [Authorize(Roles = "Read")]
         [HttpGet("get-all-books")]
         public IActionResult GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuery,
             [FromQuery] string? sortBy, [FromQuery] bool isAscending,
@@ -31,12 +32,15 @@ isAscending, pageNumber, pageSize);
         }
 
         [HttpGet]
+        [Authorize(Roles = "Read")]
         [Route("get-book-by-id/{id}")]
         public IActionResult GetBookById([FromRoute] int id)
         {
             var bookWithIdDTO = _bookRepository.GetBookById(id);
             return Ok(bookWithIdDTO);
         }
+
+        [Authorize(Roles = "Read,Write")]
         [HttpPost("add-book")]
         public IActionResult AddBook([FromBody] AddBookRequestDTO addBookRequestDTO)
         {
@@ -45,22 +49,22 @@ isAscending, pageNumber, pageSize);
                 var result = _bookRepository.AddBook(addBookRequestDTO);
                 return Ok(result);
             }
-            catch (KeyNotFoundException ex) 
+            catch (KeyNotFoundException ex)
             {
                 return BadRequest(new { message = ex.Message });
             }
             catch (InvalidOperationException ex)
             {
                 if (ex.Message.Contains("Duplicated book title", StringComparison.OrdinalIgnoreCase))
-                    return Conflict(new { message = ex.Message }); 
-                return BadRequest(new { message = ex.Message }); 
+                    return Conflict(new { message = ex.Message });
+                return BadRequest(new { message = ex.Message });
             }
-            catch (ArgumentException ex) 
+            catch (ArgumentException ex)
             {
                 return BadRequest(new { message = ex.Message });
             }
         }
-
+        [Authorize(Roles = "Read,Write")]
         [HttpPut("update-book-by-id/{id}")]
         public IActionResult UpdateBookById(int id, [FromBody] AddBookRequestDTO bookDTO)
         {
@@ -80,6 +84,7 @@ isAscending, pageNumber, pageSize);
             catch (ArgumentException ex) { return BadRequest(new { message = ex.Message }); }
         }
 
+        [Authorize(Roles = "Read,Write")]
         [HttpDelete("delete-book-by-id/{id}")]
         public IActionResult DeleteBookById(int id)
         {
@@ -87,37 +92,5 @@ isAscending, pageNumber, pageSize);
             if (deleted == null) return NotFound();
             return Ok(deleted);
         }
-
-
-        #region Private methods 
-        private bool ValidateAddBook(AddBookRequestDTO addBookRequestDTO)
-        {
-            if (addBookRequestDTO == null)
-            {
-                ModelState.AddModelError(nameof(addBookRequestDTO), $"Please add book data");
-                return false;
-            }
-            // kiem tra Description NotNull 
-            if (string.IsNullOrEmpty(addBookRequestDTO.Description))
-            {
-                ModelState.AddModelError(nameof(addBookRequestDTO.Description),
-$"{nameof(addBookRequestDTO.Description)} cannot be null");
-            }
-            // kiem tra rating (0,5) 
-            if (addBookRequestDTO.Rate < 0 || addBookRequestDTO.Rate > 5)
-            {
-                ModelState.AddModelError(nameof(addBookRequestDTO.Rate),
-$"{nameof(addBookRequestDTO.Rate)} cannot be less than 0 and more than 5");
-            }
-
-            if (ModelState.ErrorCount > 0)
-            {
-                return false;
-            }
-
-            return true;
-        }
-        #endregion
-
     }
 }
