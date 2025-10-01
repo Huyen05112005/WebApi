@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Serilog;
 using System.Net.Lib;
 using System.Text;
 using WebApi.Data;
@@ -96,6 +97,16 @@ builder.Services.AddSwaggerGen(options =>
        }
     });
 });
+
+// Add services to the container. 
+var _logger = new LoggerConfiguration()
+.WriteTo.Console()// ghi ra console 
+.WriteTo.File("Logs/Book_log.txt", rollingInterval: RollingInterval.Minute) 
+.MinimumLevel.Information() 
+.CreateLogger();
+
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(_logger);
 
 var app = builder.Build();
 

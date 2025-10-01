@@ -1,57 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\WebApi\\",
+  "WorkspaceRootPath": "D:\\Techshop-TDTDev\\Web\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\webapi\\webapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WebApi\\WebApi\\Migrations\\BookAuthDb\\20250930094645_Create Auth Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApi\\Migrations\\BookAuthDb\\20250930094645_Create Auth Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\techshop-tdtdev\\web\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\webapi\\webapi\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\techshop-tdtdev\\web\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\webapi\\webapi\\models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\webapi\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\webapi\\webapi\\data\\bookauthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\techshop-tdtdev\\web\\webapi\\webapi\\data\\bookauthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\data\\bookauthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\webapi\\webapi\\repositories\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\techshop-tdtdev\\web\\webapi\\webapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\techshop-tdtdev\\web\\webapi\\webapi\\models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\techshop-tdtdev\\web\\webapi\\webapi\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\techshop-tdtdev\\web\\webapi\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\techshop-tdtdev\\web\\webapi\\webapi\\repositories\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositories\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\webapi\\webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\techshop-tdtdev\\web\\webapi\\webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\webapi\\webapi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\techshop-tdtdev\\web\\webapi\\webapi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\webapi\\webapi\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\techshop-tdtdev\\web\\webapi\\webapi\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\webapi\\webapi\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|d:\\techshop-tdtdev\\web\\webapi\\webapi\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70ED57C2-81B2-4B80-8867-4338A3BD2012}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,167 +58,163 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250930094645_Create Auth Database.cs",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\Migrations\\BookAuthDb\\20250930094645_Create Auth Database.cs",
-              "RelativeDocumentMoniker": "WebApi\\Migrations\\BookAuthDb\\20250930094645_Create Auth Database.cs",
-              "ToolTip": "D:\\WebApi\\WebApi\\Migrations\\BookAuthDb\\20250930094645_Create Auth Database.cs",
-              "RelativeToolTip": "WebApi\\Migrations\\BookAuthDb\\20250930094645_Create Auth Database.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ITokenRepository.cs",
+              "DocumentMoniker": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Repositories\\ITokenRepository.cs",
+              "RelativeDocumentMoniker": "WebApi\\Repositories\\ITokenRepository.cs",
+              "ToolTip": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Repositories\\ITokenRepository.cs",
+              "RelativeToolTip": "WebApi\\Repositories\\ITokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T09:46:45.438Z",
+              "WhenOpened": "2025-09-30T09:03:46.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ITokenRepository.cs",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\Repositories\\ITokenRepository.cs",
-              "RelativeDocumentMoniker": "WebApi\\Repositories\\ITokenRepository.cs",
-              "ToolTip": "D:\\WebApi\\WebApi\\Repositories\\ITokenRepository.cs",
-              "RelativeToolTip": "WebApi\\Repositories\\ITokenRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T09:03:46.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "RegisterRequestDTO.cs",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\Models\\DTO\\RegisterRequestDTO.cs",
+              "DocumentMoniker": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Models\\DTO\\RegisterRequestDTO.cs",
               "RelativeDocumentMoniker": "WebApi\\Models\\DTO\\RegisterRequestDTO.cs",
-              "ToolTip": "D:\\WebApi\\WebApi\\Models\\DTO\\RegisterRequestDTO.cs",
+              "ToolTip": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Models\\DTO\\RegisterRequestDTO.cs",
               "RelativeToolTip": "WebApi\\Models\\DTO\\RegisterRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T09:02:33.078Z"
+              "WhenOpened": "2025-09-30T09:02:33.078Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebApi\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\WebApi\\WebApi\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Data\\AppDbContext.cs",
               "RelativeToolTip": "WebApi\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T09:00:19.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "BookAuthDbContext.cs",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\Data\\BookAuthDbContext.cs",
+              "DocumentMoniker": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Data\\BookAuthDbContext.cs",
               "RelativeDocumentMoniker": "WebApi\\Data\\BookAuthDbContext.cs",
-              "ToolTip": "D:\\WebApi\\WebApi\\Data\\BookAuthDbContext.cs",
+              "ToolTip": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Data\\BookAuthDbContext.cs",
               "RelativeToolTip": "WebApi\\Data\\BookAuthDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:58:44.281Z"
+              "WhenOpened": "2025-09-30T08:58:44.281Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\appsettings.json",
+              "DocumentMoniker": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "WebApi\\appsettings.json",
-              "ToolTip": "D:\\WebApi\\WebApi\\appsettings.json",
+              "ToolTip": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\appsettings.json",
               "RelativeToolTip": "WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-30T08:51:17.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\Program.cs",
+              "DocumentMoniker": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "D:\\WebApi\\WebApi\\Program.cs",
+              "ToolTip": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAcwFQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAIAwwHQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T08:42:37.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "BooksController.cs",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\Controllers\\BooksController.cs",
+              "DocumentMoniker": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\BooksController.cs",
-              "ToolTip": "D:\\WebApi\\WebApi\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Controllers\\BooksController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\BooksController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAowCwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T09:07:53.909Z"
+              "WhenOpened": "2025-09-30T09:07:53.909Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TokenRepository.cs",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\Repositories\\TokenRepository.cs",
+              "DocumentMoniker": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Repositories\\TokenRepository.cs",
               "RelativeDocumentMoniker": "WebApi\\Repositories\\TokenRepository.cs",
-              "ToolTip": "D:\\WebApi\\WebApi\\Repositories\\TokenRepository.cs",
+              "ToolTip": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Repositories\\TokenRepository.cs",
               "RelativeToolTip": "WebApi\\Repositories\\TokenRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T09:03:56.323Z"
+              "WhenOpened": "2025-09-30T09:03:56.323Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\WebApi\\WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T09:01:56.356Z"
+              "WhenOpened": "2025-09-30T09:01:56.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "AuthorsController.cs",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\Controllers\\AuthorsController.cs",
+              "DocumentMoniker": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Controllers\\AuthorsController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\AuthorsController.cs",
-              "ToolTip": "D:\\WebApi\\WebApi\\Controllers\\AuthorsController.cs",
+              "ToolTip": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Controllers\\AuthorsController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\AuthorsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T09:12:28.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginResponseDTO.cs",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\Models\\DTO\\LoginResponseDTO.cs",
-              "RelativeDocumentMoniker": "WebApi\\Models\\DTO\\LoginResponseDTO.cs",
-              "ToolTip": "D:\\WebApi\\WebApi\\Models\\DTO\\LoginResponseDTO.cs",
-              "RelativeToolTip": "WebApi\\Models\\DTO\\LoginResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T09:05:01.2Z"
+              "WhenOpened": "2025-09-30T09:12:28.932Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Models\\DTO\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\DTO\\LoginResponseDTO.cs",
+              "ToolTip": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Models\\DTO\\LoginResponseDTO.cs",
+              "RelativeToolTip": "WebApi\\Models\\DTO\\LoginResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:05:01.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "LoginRequestDTO.cs",
-              "DocumentMoniker": "D:\\WebApi\\WebApi\\Models\\DTO\\LoginRequestDTO.cs",
+              "DocumentMoniker": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Models\\DTO\\LoginRequestDTO.cs",
               "RelativeDocumentMoniker": "WebApi\\Models\\DTO\\LoginRequestDTO.cs",
-              "ToolTip": "D:\\WebApi\\WebApi\\Models\\DTO\\LoginRequestDTO.cs",
+              "ToolTip": "D:\\Techshop-TDTDev\\Web\\WebApi\\WebApi\\Models\\DTO\\LoginRequestDTO.cs",
               "RelativeToolTip": "WebApi\\Models\\DTO\\LoginRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T09:06:31.055Z"
+              "WhenOpened": "2025-09-30T09:06:31.055Z",
+              "EditorCaption": ""
             }
           ]
         }
