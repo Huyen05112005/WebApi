@@ -1,0 +1,7 @@
+2025-10-04 08:59:27.872 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7245/api/Books/add-book application/json;+charset=utf-8 182
+2025-10-04 08:59:27.878 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.AddBook (WebApi)'
+2025-10-04 08:59:27.880 +07:00 [INF] Route matched with {action = "AddBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddBook(WebApi.Models.DTO.AddBookRequestDTO) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 08:59:27.883 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-04 08:59:27.885 +07:00 [INF] Executed action WebApi.Controllers.BooksController.AddBook (WebApi) in 3.0334ms
+2025-10-04 08:59:27.886 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.AddBook (WebApi)'
+2025-10-04 08:59:27.887 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7245/api/Books/add-book application/json;+charset=utf-8 182 - 400 - application/problem+json;+charset=utf-8 16.3709ms

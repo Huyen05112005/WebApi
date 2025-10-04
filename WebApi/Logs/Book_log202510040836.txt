@@ -1,0 +1,43 @@
+2025-10-04 08:36:11.601 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7245/api/Books/add-book application/json;+charset=utf-8 165
+2025-10-04 08:36:11.605 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.AddBook (WebApi)'
+2025-10-04 08:36:11.606 +07:00 [INF] Route matched with {action = "AddBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddBook(WebApi.Models.DTO.AddBookRequestDTO) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 08:36:11.610 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-04 08:36:11.611 +07:00 [INF] Executed action WebApi.Controllers.BooksController.AddBook (WebApi) in 2.7354ms
+2025-10-04 08:36:11.613 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.AddBook (WebApi)'
+2025-10-04 08:36:11.614 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7245/api/Books/add-book application/json;+charset=utf-8 165 - 400 - application/problem+json;+charset=utf-8 12.7951ms
+2025-10-04 08:36:18.213 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Authors/get-all-author - -
+2025-10-04 08:36:18.222 +07:00 [INF] Executing endpoint 'WebApi.Controllers.AuthorsController.GetAllAuthors (WebApi)'
+2025-10-04 08:36:18.224 +07:00 [INF] Route matched with {action = "GetAllAuthors", controller = "Authors"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAuthors() on controller WebApi.Controllers.AuthorsController (WebApi).
+2025-10-04 08:36:18.228 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 08:36:18.236 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[FullName]
+FROM [Authors] AS [a]
+2025-10-04 08:36:18.238 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Models.DTO.AuthorDTO, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-04 08:36:18.240 +07:00 [INF] Executed action WebApi.Controllers.AuthorsController.GetAllAuthors (WebApi) in 13.2635ms
+2025-10-04 08:36:18.241 +07:00 [INF] Executed endpoint 'WebApi.Controllers.AuthorsController.GetAllAuthors (WebApi)'
+2025-10-04 08:36:18.242 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Authors/get-all-author - - - 200 - application/json;+charset=utf-8 28.9207ms
+2025-10-04 08:36:18.248 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Publishers/get-all-publishers - -
+2025-10-04 08:36:18.250 +07:00 [INF] Executing endpoint 'WebApi.Controllers.PublishersController.GetAllPublishers (WebApi)'
+2025-10-04 08:36:18.251 +07:00 [INF] Route matched with {action = "GetAllPublishers", controller = "Publishers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllPublishers() on controller WebApi.Controllers.PublishersController (WebApi).
+2025-10-04 08:36:18.253 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 08:36:18.257 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name]
+FROM [Publishers] AS [p]
+2025-10-04 08:36:18.259 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Models.DTO.PublisherDTO, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-04 08:36:18.260 +07:00 [INF] Executed action WebApi.Controllers.PublishersController.GetAllPublishers (WebApi) in 6.8706ms
+2025-10-04 08:36:18.261 +07:00 [INF] Executed endpoint 'WebApi.Controllers.PublishersController.GetAllPublishers (WebApi)'
+2025-10-04 08:36:18.262 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Publishers/get-all-publishers - - - 200 - application/json;+charset=utf-8 14.1656ms
+2025-10-04 08:36:35.491 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7245/api/Books/add-book application/json;+charset=utf-8 181
+2025-10-04 08:36:35.492 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.AddBook (WebApi)'
+2025-10-04 08:36:35.493 +07:00 [INF] Route matched with {action = "AddBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddBook(WebApi.Models.DTO.AddBookRequestDTO) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 08:36:35.501 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-04 08:36:35.503 +07:00 [INF] Executed action WebApi.Controllers.BooksController.AddBook (WebApi) in 8.6622ms
+2025-10-04 08:36:35.504 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.AddBook (WebApi)'
+2025-10-04 08:36:35.505 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7245/api/Books/add-book application/json;+charset=utf-8 181 - 400 - application/problem+json;+charset=utf-8 14.1332ms
+2025-10-04 08:36:57.661 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7245/api/Books/add-book application/json;+charset=utf-8 181
+2025-10-04 08:36:57.668 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.AddBook (WebApi)'
+2025-10-04 08:36:57.669 +07:00 [INF] Route matched with {action = "AddBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddBook(WebApi.Models.DTO.AddBookRequestDTO) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 08:36:57.670 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-04 08:36:57.671 +07:00 [INF] Executed action WebApi.Controllers.BooksController.AddBook (WebApi) in 1.4251ms
+2025-10-04 08:36:57.672 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.AddBook (WebApi)'
+2025-10-04 08:36:57.673 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7245/api/Books/add-book application/json;+charset=utf-8 181 - 400 - application/problem+json;+charset=utf-8 12.5716ms

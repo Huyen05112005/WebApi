@@ -14,7 +14,7 @@ namespace WebApi.Data
         public DbSet<Publisher> Publishers { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<BookAuthor> BookAuthors { get; set; }
-
+        public DbSet<Image> Images { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<BookAuthor>()
@@ -31,6 +31,9 @@ namespace WebApi.Data
                 .HasOne(b => b.Publisher)
                 .WithMany(p => p.Books)
                 .HasForeignKey(b => b.PublisherID);
+
+            modelBuilder.Entity<Image>()
+                .HasKey(i => i.Id);
         }
     }
 }

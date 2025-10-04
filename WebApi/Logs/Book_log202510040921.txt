@@ -1,0 +1,148 @@
+2025-10-04 09:21:17.210 +07:00 [INF] User profile is available. Using 'C:\Users\xuant\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-04 09:21:17.593 +07:00 [INF] Now listening on: https://localhost:7245
+2025-10-04 09:21:17.595 +07:00 [INF] Now listening on: http://localhost:5215
+2025-10-04 09:21:17.645 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-04 09:21:17.646 +07:00 [INF] Hosting environment: Development
+2025-10-04 09:21:17.647 +07:00 [INF] Content root path: D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\
+2025-10-04 09:21:19.139 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/swagger/index.html - -
+2025-10-04 09:21:19.178 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:19.212 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 32.2637ms
+2025-10-04 09:21:19.656 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/swagger/index.html - - - 200 - text/html;charset=utf-8 523.4405ms
+2025-10-04 09:21:19.782 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:19.787 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_vs/browserLink - -
+2025-10-04 09:21:19.791 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 9.5882ms
+2025-10-04 09:21:19.892 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 104.4999ms
+2025-10-04 09:21:19.909 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:19.912 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 2.9941ms
+2025-10-04 09:21:20.036 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:20.036 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/swagger/v1/swagger.json - -
+2025-10-04 09:21:20.038 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 1.7116ms
+2025-10-04 09:21:20.050 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 13.8424ms
+2025-10-04 09:21:22.999 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:23.000 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 1.3008ms
+2025-10-04 09:21:23.002 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:23.003 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 1.3842ms
+2025-10-04 09:21:40.678 +07:00 [INF] User profile is available. Using 'C:\Users\xuant\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-04 09:21:41.018 +07:00 [INF] Now listening on: https://localhost:7245
+2025-10-04 09:21:41.019 +07:00 [INF] Now listening on: http://localhost:5215
+2025-10-04 09:21:41.069 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-04 09:21:41.071 +07:00 [INF] Hosting environment: Development
+2025-10-04 09:21:41.072 +07:00 [INF] Content root path: D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\
+2025-10-04 09:21:42.475 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/swagger/index.html - -
+2025-10-04 09:21:42.751 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:42.788 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 35.9587ms
+2025-10-04 09:21:43.002 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/swagger/index.html - - - 200 - text/html;charset=utf-8 534.0341ms
+2025-10-04 09:21:43.126 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:43.128 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_vs/browserLink - -
+2025-10-04 09:21:43.128 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 2.1075ms
+2025-10-04 09:21:43.214 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 86.3045ms
+2025-10-04 09:21:43.230 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:43.231 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 1.1160ms
+2025-10-04 09:21:43.329 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:43.331 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/swagger/v1/swagger.json - -
+2025-10-04 09:21:43.331 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 2.4442ms
+2025-10-04 09:21:43.342 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 11.8509ms
+2025-10-04 09:21:44.627 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - -
+2025-10-04 09:21:44.705 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.GetAll (WebApi)'
+2025-10-04 09:21:44.726 +07:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String, System.String, System.String, Boolean, Int32, Int32) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 09:21:45.837 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:21:46.127 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-04 09:21:46.129 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-04 09:21:46.479 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:46.480 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 1.4373ms
+2025-10-04 09:21:46.484 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:46.486 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 1.4562ms
+2025-10-04 09:21:46.492 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:46.493 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 1.3889ms
+2025-10-04 09:21:46.934 +07:00 [INF] Executed DbCommand (56ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Title], [t].[Description], [t].[IsRead], CASE
+    WHEN [t].[IsRead] = CAST(1 AS bit) THEN [t].[DateRead]
+    ELSE NULL
+END, CASE
+    WHEN [t].[IsRead] = CAST(1 AS bit) THEN [t].[Rate]
+    ELSE NULL
+END, [t].[Genre], [t].[CoverUrl], [p].[Name], [p].[Id], [t0].[FullName], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT [b].[Id], [b].[CoverUrl], [b].[DateRead], [b].[Description], [b].[Genre], [b].[IsRead], [b].[PublisherID], [b].[Rate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Publishers] AS [p] ON [t].[PublisherID] = [p].[Id]
+LEFT JOIN (
+    SELECT [a].[FullName], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookID]
+    FROM [BookAuthors] AS [b0]
+    INNER JOIN [Authors] AS [a] ON [b0].[AuthorID] = [a].[Id]
+) AS [t0] ON [t].[Id] = [t0].[BookID]
+ORDER BY [t].[Id], [p].[Id], [t0].[Id]
+2025-10-04 09:21:46.990 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Models.DTO.BookWithAuthorAndPublisherDTO, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-04 09:21:47.007 +07:00 [INF] Executed action WebApi.Controllers.BooksController.GetAll (WebApi) in 2274.2544ms
+2025-10-04 09:21:47.009 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.GetAll (WebApi)'
+2025-10-04 09:21:47.018 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - - - 200 - application/json;+charset=utf-8 2391.2350ms
+2025-10-04 09:21:48.232 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Books/get-book-by-id/1 - -
+2025-10-04 09:21:48.235 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.GetBookById (WebApi)'
+2025-10-04 09:21:48.238 +07:00 [INF] Route matched with {action = "GetBookById", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBookById(Int32) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 09:21:48.243 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:21:48.263 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Title], [t].[Description], [t].[IsRead], [t].[DateRead], [t].[Rate], [t].[Genre], [t].[CoverUrl], [t].[Name], [t].[Id0], [t0].[FullName], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT TOP(1) [b].[Id], [b].[Title], [b].[Description], [b].[IsRead], [b].[DateRead], [b].[Rate], [b].[Genre], [b].[CoverUrl], [p].[Name], [p].[Id] AS [Id0]
+    FROM [Books] AS [b]
+    INNER JOIN [Publishers] AS [p] ON [b].[PublisherID] = [p].[Id]
+    WHERE [b].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [a].[FullName], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookID]
+    FROM [BookAuthors] AS [b0]
+    INNER JOIN [Authors] AS [a] ON [b0].[AuthorID] = [a].[Id]
+) AS [t0] ON [t].[Id] = [t0].[BookID]
+ORDER BY [t].[Id], [t].[Id0], [t0].[Id]
+2025-10-04 09:21:48.269 +07:00 [INF] Executing OkObjectResult, writing value of type 'WebApi.Models.DTO.BookWithAuthorAndPublisherDTO'.
+2025-10-04 09:21:48.272 +07:00 [INF] Executed action WebApi.Controllers.BooksController.GetBookById (WebApi) in 32.3763ms
+2025-10-04 09:21:48.273 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.GetBookById (WebApi)'
+2025-10-04 09:21:48.275 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Books/get-book-by-id/1 - - - 200 - application/json;+charset=utf-8 43.0328ms
+2025-10-04 09:21:50.123 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:50.124 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 1.3546ms
+2025-10-04 09:21:50.443 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:50.446 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 3.8234ms
+2025-10-04 09:21:50.509 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:50.511 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 1.6121ms
+2025-10-04 09:21:50.516 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:50.518 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 1.7571ms
+2025-10-04 09:21:53.445 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:21:53.446 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 1.3448ms
+2025-10-04 09:21:57.128 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Books/get-book-by-id/1 - -
+2025-10-04 09:21:57.131 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.GetBookById (WebApi)'
+2025-10-04 09:21:57.132 +07:00 [INF] Route matched with {action = "GetBookById", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBookById(Int32) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 09:21:57.174 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:21:57.183 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Title], [t].[Description], [t].[IsRead], [t].[DateRead], [t].[Rate], [t].[Genre], [t].[CoverUrl], [t].[Name], [t].[Id0], [t0].[FullName], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT TOP(1) [b].[Id], [b].[Title], [b].[Description], [b].[IsRead], [b].[DateRead], [b].[Rate], [b].[Genre], [b].[CoverUrl], [p].[Name], [p].[Id] AS [Id0]
+    FROM [Books] AS [b]
+    INNER JOIN [Publishers] AS [p] ON [b].[PublisherID] = [p].[Id]
+    WHERE [b].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [a].[FullName], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookID]
+    FROM [BookAuthors] AS [b0]
+    INNER JOIN [Authors] AS [a] ON [b0].[AuthorID] = [a].[Id]
+) AS [t0] ON [t].[Id] = [t0].[BookID]
+ORDER BY [t].[Id], [t].[Id0], [t0].[Id]
+2025-10-04 09:21:57.185 +07:00 [INF] Executing OkObjectResult, writing value of type 'WebApi.Models.DTO.BookWithAuthorAndPublisherDTO'.
+2025-10-04 09:21:57.186 +07:00 [INF] Executed action WebApi.Controllers.BooksController.GetBookById (WebApi) in 53.0279ms
+2025-10-04 09:21:57.188 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.GetBookById (WebApi)'
+2025-10-04 09:21:57.189 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Books/get-book-by-id/1 - - - 200 - application/json;+charset=utf-8 60.9671ms
+2025-10-04 09:21:57.202 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Authors/get-all-author - -
+2025-10-04 09:21:57.204 +07:00 [INF] Executing endpoint 'WebApi.Controllers.AuthorsController.GetAllAuthors (WebApi)'
+2025-10-04 09:21:57.206 +07:00 [INF] Route matched with {action = "GetAllAuthors", controller = "Authors"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAuthors() on controller WebApi.Controllers.AuthorsController (WebApi).
+2025-10-04 09:21:57.208 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:21:57.215 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[FullName]
+FROM [Authors] AS [a]
+2025-10-04 09:21:57.218 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Models.DTO.AuthorDTO, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-04 09:21:57.220 +07:00 [INF] Executed action WebApi.Controllers.AuthorsController.GetAllAuthors (WebApi) in 12.7374ms
+2025-10-04 09:21:57.222 +07:00 [INF] Executed endpoint 'WebApi.Controllers.AuthorsController.GetAllAuthors (WebApi)'
+2025-10-04 09:21:57.223 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Authors/get-all-author - - - 200 - application/json;+charset=utf-8 20.5057ms
+2025-10-04 09:21:57.233 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Publishers/get-all-publisher - -
+2025-10-04 09:21:57.235 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Publishers/get-all-publisher - - - 404 0 - 1.6895ms

@@ -1,0 +1,17 @@
+2025-10-04 10:07:39.480 +07:00 [INF] User profile is available. Using 'C:\Users\adminds\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-04 10:07:40.334 +07:00 [INF] Now listening on: https://localhost:7245
+2025-10-04 10:07:40.338 +07:00 [INF] Now listening on: http://localhost:5215
+2025-10-04 10:07:40.479 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-04 10:07:40.485 +07:00 [INF] Hosting environment: Development
+2025-10-04 10:07:40.489 +07:00 [INF] Content root path: D:\WebApi\WebApi\
+2025-10-04 10:07:42.779 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/swagger/index.html - -
+2025-10-04 10:07:43.420 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/swagger/index.html - - - 200 - text/html;charset=utf-8 649.7688ms
+2025-10-04 10:07:43.496 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 10:07:43.511 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_vs/browserLink - -
+2025-10-04 10:07:43.525 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 13748 application/javascript;+charset=utf-8 29.4603ms
+2025-10-04 10:07:43.769 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 258.1862ms
+2025-10-04 10:07:43.946 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/swagger/v1/swagger.json - -
+2025-10-04 10:07:43.984 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 38.2633ms
+2025-10-04 10:07:56.284 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - -
+2025-10-04 10:07:56.643 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.GetAll (WebApi)'
+2025-10-04 10:07:56.719 +07:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String, System.String, System.String, Boolean, Int32, Int32) on controller WebApi.Controllers.BooksController (WebApi).

@@ -1,0 +1,243 @@
+2025-10-04 09:23:00.995 +07:00 [INF] User profile is available. Using 'C:\Users\xuant\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-04 09:23:01.363 +07:00 [INF] Now listening on: https://localhost:7245
+2025-10-04 09:23:01.364 +07:00 [INF] Now listening on: http://localhost:5215
+2025-10-04 09:23:01.417 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-04 09:23:01.418 +07:00 [INF] Hosting environment: Development
+2025-10-04 09:23:01.419 +07:00 [INF] Content root path: D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\
+2025-10-04 09:23:02.483 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/swagger/index.html - -
+2025-10-04 09:23:02.696 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:23:02.738 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 40.1005ms
+2025-10-04 09:23:02.759 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:23:02.774 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 14.9549ms
+2025-10-04 09:23:02.783 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:23:02.801 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 18.5851ms
+2025-10-04 09:23:03.054 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/swagger/index.html - - - 200 - text/html;charset=utf-8 577.4677ms
+2025-10-04 09:23:03.168 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:23:03.170 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_vs/browserLink - -
+2025-10-04 09:23:03.170 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 2.9527ms
+2025-10-04 09:23:03.259 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 88.0973ms
+2025-10-04 09:23:03.410 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/swagger/v1/swagger.json - -
+2025-10-04 09:23:03.427 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 17.4589ms
+2025-10-04 09:23:05.836 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:23:05.838 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 2.1794ms
+2025-10-04 09:23:06.449 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:23:06.451 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 1.9444ms
+2025-10-04 09:23:06.453 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:23:06.455 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 2.2285ms
+2025-10-04 09:23:06.944 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - -
+2025-10-04 09:23:06.946 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7245/_framework/aspnetcore-browser-refresh.js - - - 200 16497 application/javascript;+charset=utf-8 2.3882ms
+2025-10-04 09:23:13.819 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - -
+2025-10-04 09:23:13.902 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.GetAll (WebApi)'
+2025-10-04 09:23:13.926 +07:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String, System.String, System.String, Boolean, Int32, Int32) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 09:23:15.040 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:23:15.388 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-04 09:23:15.391 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-04 09:23:16.109 +07:00 [INF] Executed DbCommand (83ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Title], [t].[Description], [t].[IsRead], CASE
+    WHEN [t].[IsRead] = CAST(1 AS bit) THEN [t].[DateRead]
+    ELSE NULL
+END, CASE
+    WHEN [t].[IsRead] = CAST(1 AS bit) THEN [t].[Rate]
+    ELSE NULL
+END, [t].[Genre], [t].[CoverUrl], [p].[Name], [p].[Id], [t0].[FullName], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT [b].[Id], [b].[CoverUrl], [b].[DateRead], [b].[Description], [b].[Genre], [b].[IsRead], [b].[PublisherID], [b].[Rate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Publishers] AS [p] ON [t].[PublisherID] = [p].[Id]
+LEFT JOIN (
+    SELECT [a].[FullName], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookID]
+    FROM [BookAuthors] AS [b0]
+    INNER JOIN [Authors] AS [a] ON [b0].[AuthorID] = [a].[Id]
+) AS [t0] ON [t].[Id] = [t0].[BookID]
+ORDER BY [t].[Id], [p].[Id], [t0].[Id]
+2025-10-04 09:23:16.173 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Models.DTO.BookWithAuthorAndPublisherDTO, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-04 09:23:16.195 +07:00 [INF] Executed action WebApi.Controllers.BooksController.GetAll (WebApi) in 2261.1878ms
+2025-10-04 09:23:16.198 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.GetAll (WebApi)'
+2025-10-04 09:23:16.208 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - - - 200 - application/json;+charset=utf-8 2388.9617ms
+2025-10-04 09:23:34.960 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Books/get-book-by-id/1 - -
+2025-10-04 09:23:34.963 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.GetBookById (WebApi)'
+2025-10-04 09:23:34.966 +07:00 [INF] Route matched with {action = "GetBookById", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBookById(Int32) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 09:23:34.970 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:23:34.987 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Title], [t].[Description], [t].[IsRead], [t].[DateRead], [t].[Rate], [t].[Genre], [t].[CoverUrl], [t].[Name], [t].[Id0], [t0].[FullName], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT TOP(1) [b].[Id], [b].[Title], [b].[Description], [b].[IsRead], [b].[DateRead], [b].[Rate], [b].[Genre], [b].[CoverUrl], [p].[Name], [p].[Id] AS [Id0]
+    FROM [Books] AS [b]
+    INNER JOIN [Publishers] AS [p] ON [b].[PublisherID] = [p].[Id]
+    WHERE [b].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [a].[FullName], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookID]
+    FROM [BookAuthors] AS [b0]
+    INNER JOIN [Authors] AS [a] ON [b0].[AuthorID] = [a].[Id]
+) AS [t0] ON [t].[Id] = [t0].[BookID]
+ORDER BY [t].[Id], [t].[Id0], [t0].[Id]
+2025-10-04 09:23:34.991 +07:00 [INF] Executing OkObjectResult, writing value of type 'WebApi.Models.DTO.BookWithAuthorAndPublisherDTO'.
+2025-10-04 09:23:34.994 +07:00 [INF] Executed action WebApi.Controllers.BooksController.GetBookById (WebApi) in 26.3629ms
+2025-10-04 09:23:34.995 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.GetBookById (WebApi)'
+2025-10-04 09:23:34.996 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Books/get-book-by-id/1 - - - 200 - application/json;+charset=utf-8 36.4177ms
+2025-10-04 09:23:35.036 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Authors/get-all-author - -
+2025-10-04 09:23:35.038 +07:00 [INF] Executing endpoint 'WebApi.Controllers.AuthorsController.GetAllAuthors (WebApi)'
+2025-10-04 09:23:35.040 +07:00 [INF] Route matched with {action = "GetAllAuthors", controller = "Authors"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllAuthors() on controller WebApi.Controllers.AuthorsController (WebApi).
+2025-10-04 09:23:35.083 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:23:35.090 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[FullName]
+FROM [Authors] AS [a]
+2025-10-04 09:23:35.093 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Models.DTO.AuthorDTO, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-04 09:23:35.095 +07:00 [INF] Executed action WebApi.Controllers.AuthorsController.GetAllAuthors (WebApi) in 52.8348ms
+2025-10-04 09:23:35.096 +07:00 [INF] Executed endpoint 'WebApi.Controllers.AuthorsController.GetAllAuthors (WebApi)'
+2025-10-04 09:23:35.097 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Authors/get-all-author - - - 200 - application/json;+charset=utf-8 61.5552ms
+2025-10-04 09:23:35.105 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Publishers/get-all-publishers - -
+2025-10-04 09:23:35.106 +07:00 [INF] Executing endpoint 'WebApi.Controllers.PublishersController.GetAllPublishers (WebApi)'
+2025-10-04 09:23:35.108 +07:00 [INF] Route matched with {action = "GetAllPublishers", controller = "Publishers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllPublishers() on controller WebApi.Controllers.PublishersController (WebApi).
+2025-10-04 09:23:35.111 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:23:35.117 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name]
+FROM [Publishers] AS [p]
+2025-10-04 09:23:35.119 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Models.DTO.PublisherDTO, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-04 09:23:35.120 +07:00 [INF] Executed action WebApi.Controllers.PublishersController.GetAllPublishers (WebApi) in 11.2293ms
+2025-10-04 09:23:35.122 +07:00 [INF] Executed endpoint 'WebApi.Controllers.PublishersController.GetAllPublishers (WebApi)'
+2025-10-04 09:23:35.123 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Publishers/get-all-publishers - - - 200 - application/json;+charset=utf-8 17.4380ms
+2025-10-04 09:23:45.242 +07:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7245/api/Books/update-book-by-id/1 application/json;+charset=utf-8 213
+2025-10-04 09:23:45.243 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.UpdateBookById (WebApi)'
+2025-10-04 09:23:45.246 +07:00 [INF] Route matched with {action = "UpdateBookById", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateBookById(Int32, WebApi.Models.DTO.AddBookRequestDTO) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 09:23:45.275 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:23:45.353 +07:00 [INF] Executed DbCommand (15ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CoverUrl], [t].[DateAdded], [t].[DateRead], [t].[Description], [t].[Genre], [t].[IsRead], [t].[PublisherID], [t].[Rate], [t].[Title], [b0].[Id], [b0].[AuthorID], [b0].[BookID]
+FROM (
+    SELECT TOP(1) [b].[Id], [b].[CoverUrl], [b].[DateAdded], [b].[DateRead], [b].[Description], [b].[Genre], [b].[IsRead], [b].[PublisherID], [b].[Rate], [b].[Title]
+    FROM [Books] AS [b]
+    WHERE [b].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [BookAuthors] AS [b0] ON [t].[Id] = [b0].[BookID]
+ORDER BY [t].[Id]
+2025-10-04 09:23:45.461 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name]
+FROM [Publishers] AS [p]
+WHERE [p].[Id] = @__p_0
+2025-10-04 09:23:45.489 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id]
+FROM [Authors] AS [a]
+WHERE [a].[Id] = 1
+2025-10-04 09:23:45.572 +07:00 [INF] Executed DbCommand (50ms) [Parameters=[@__id_0='?' (DbType = Int32), @__dto_PublisherID_1='?' (DbType = Int32), @__ToLower_2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Books] AS [b]
+        WHERE (([b].[Id] <> @__id_0) AND ([b].[PublisherID] = @__dto_PublisherID_1)) AND (LOWER([b].[Title]) = @__ToLower_2)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-10-04 09:23:45.590 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[@__aid_0='?' (DbType = Int32), @__8__locals1_id_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [BookAuthors] AS [b]
+WHERE ([b].[AuthorID] = @__aid_0) AND ([b].[BookID] <> @__8__locals1_id_1)
+2025-10-04 09:23:45.606 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32), @__dto_PublisherID_1='?' (DbType = Int32), @__year_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Books] AS [b]
+WHERE (([b].[Id] <> @__id_0) AND ([b].[PublisherID] = @__dto_PublisherID_1)) AND (DATEPART(year, GETUTCDATE()) = @__year_2)
+2025-10-04 09:23:45.669 +07:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-10-04 09:23:45.725 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Books] SET [Rate] = @p0, [Title] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+2025-10-04 09:23:45.748 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[AuthorID], [b].[BookID]
+FROM [BookAuthors] AS [b]
+WHERE [b].[BookID] = @__id_0
+2025-10-04 09:23:45.758 +07:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-10-04 09:23:45.774 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [BookAuthors]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2025-10-04 09:23:45.803 +07:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-10-04 09:23:45.819 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [BookAuthors] ([AuthorID], [BookID])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [BookAuthors]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2025-10-04 09:23:45.856 +07:00 [INF] Executing OkObjectResult, writing value of type 'WebApi.Models.DTO.AddBookRequestDTO'.
+2025-10-04 09:23:45.860 +07:00 [INF] Executed action WebApi.Controllers.BooksController.UpdateBookById (WebApi) in 612.5909ms
+2025-10-04 09:23:45.861 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.UpdateBookById (WebApi)'
+2025-10-04 09:23:45.862 +07:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7245/api/Books/update-book-by-id/1 application/json;+charset=utf-8 213 - 200 - application/json;+charset=utf-8 620.7707ms
+2025-10-04 09:23:45.878 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - -
+2025-10-04 09:23:45.879 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.GetAll (WebApi)'
+2025-10-04 09:23:45.880 +07:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String, System.String, System.String, Boolean, Int32, Int32) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 09:23:45.883 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:23:45.891 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Title], [t].[Description], [t].[IsRead], CASE
+    WHEN [t].[IsRead] = CAST(1 AS bit) THEN [t].[DateRead]
+    ELSE NULL
+END, CASE
+    WHEN [t].[IsRead] = CAST(1 AS bit) THEN [t].[Rate]
+    ELSE NULL
+END, [t].[Genre], [t].[CoverUrl], [p].[Name], [p].[Id], [t0].[FullName], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT [b].[Id], [b].[CoverUrl], [b].[DateRead], [b].[Description], [b].[Genre], [b].[IsRead], [b].[PublisherID], [b].[Rate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Publishers] AS [p] ON [t].[PublisherID] = [p].[Id]
+LEFT JOIN (
+    SELECT [a].[FullName], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookID]
+    FROM [BookAuthors] AS [b0]
+    INNER JOIN [Authors] AS [a] ON [b0].[AuthorID] = [a].[Id]
+) AS [t0] ON [t].[Id] = [t0].[BookID]
+ORDER BY [t].[Id], [p].[Id], [t0].[Id]
+2025-10-04 09:23:45.893 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Models.DTO.BookWithAuthorAndPublisherDTO, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-04 09:23:45.894 +07:00 [INF] Executed action WebApi.Controllers.BooksController.GetAll (WebApi) in 11.9419ms
+2025-10-04 09:23:45.895 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.GetAll (WebApi)'
+2025-10-04 09:23:45.896 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - - - 200 - application/json;+charset=utf-8 18.7958ms
+2025-10-04 09:23:48.288 +07:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7245/api/Books/delete-book-by-id/1 - -
+2025-10-04 09:23:48.289 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.DeleteBookById (WebApi)'
+2025-10-04 09:23:48.292 +07:00 [INF] Route matched with {action = "DeleteBookById", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteBookById(Int32) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 09:23:48.294 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:23:48.302 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[CoverUrl], [b].[DateAdded], [b].[DateRead], [b].[Description], [b].[Genre], [b].[IsRead], [b].[PublisherID], [b].[Rate], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[Id] = @__id_0
+2025-10-04 09:23:48.338 +07:00 [INF] Executed DbCommand (27ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Books]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2025-10-04 09:23:48.346 +07:00 [INF] Executing OkObjectResult, writing value of type 'WebApi.Models.Domain.Book'.
+2025-10-04 09:23:48.349 +07:00 [INF] Executed action WebApi.Controllers.BooksController.DeleteBookById (WebApi) in 56.0218ms
+2025-10-04 09:23:48.351 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.DeleteBookById (WebApi)'
+2025-10-04 09:23:48.352 +07:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7245/api/Books/delete-book-by-id/1 - - - 200 - application/json;+charset=utf-8 63.9533ms
+2025-10-04 09:23:48.363 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - -
+2025-10-04 09:23:48.365 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.GetAll (WebApi)'
+2025-10-04 09:23:48.366 +07:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll(System.String, System.String, System.String, Boolean, Int32, Int32) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 09:23:48.369 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:23:48.373 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Title], [t].[Description], [t].[IsRead], CASE
+    WHEN [t].[IsRead] = CAST(1 AS bit) THEN [t].[DateRead]
+    ELSE NULL
+END, CASE
+    WHEN [t].[IsRead] = CAST(1 AS bit) THEN [t].[Rate]
+    ELSE NULL
+END, [t].[Genre], [t].[CoverUrl], [p].[Name], [p].[Id], [t0].[FullName], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT [b].[Id], [b].[CoverUrl], [b].[DateRead], [b].[Description], [b].[Genre], [b].[IsRead], [b].[PublisherID], [b].[Rate], [b].[Title]
+    FROM [Books] AS [b]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Publishers] AS [p] ON [t].[PublisherID] = [p].[Id]
+LEFT JOIN (
+    SELECT [a].[FullName], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookID]
+    FROM [BookAuthors] AS [b0]
+    INNER JOIN [Authors] AS [a] ON [b0].[AuthorID] = [a].[Id]
+) AS [t0] ON [t].[Id] = [t0].[BookID]
+ORDER BY [t].[Id], [p].[Id], [t0].[Id]
+2025-10-04 09:23:48.375 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApi.Models.DTO.BookWithAuthorAndPublisherDTO, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-04 09:23:48.377 +07:00 [INF] Executed action WebApi.Controllers.BooksController.GetAll (WebApi) in 8.9533ms
+2025-10-04 09:23:48.378 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.GetAll (WebApi)'
+2025-10-04 09:23:48.379 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - - - 200 - application/json;+charset=utf-8 15.8208ms

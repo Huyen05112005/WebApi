@@ -91,3 +91,191 @@ D:\Techshop-TDTDev\Web\WebApi\WebApi\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 D:\Techshop-TDTDev\Web\WebApi\WebApi\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 D:\Techshop-TDTDev\Web\WebApi\WebApi\bin\Debug\net6.0\Serilog.Sinks.File.dll
 D:\Techshop-TDTDev\Web\WebApi\WebApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Techshop-TDTDev\Web\WebApi\WebApi\bin\Debug\net6.0\WebApi.staticwebassets.runtime.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\appsettings.Development.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\appsettings.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\WebApi.staticwebassets.endpoints.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\WebApi.staticwebassets.runtime.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\WebApi.exe
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\WebApi.deps.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\WebApi.runtimeconfig.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\WebApi.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\WebApi.pdb
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Humanizer.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Serilog.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Serilog.AspNetCore.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\WebApi.csproj.AssemblyReference.cache
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\rpswa.dswa.cache.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\WebApi.AssemblyInfoInputs.cache
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\WebApi.AssemblyInfo.cs
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\WebApi.csproj.CoreCompileInputs.cache
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\rjimswa.dswa.cache.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\scopedcss\bundle\WebApi.styles.css
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\staticwebassets.build.json.cache
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\WebApi.csproj.Up2Date
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\WebApi.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\refint\WebApi.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\WebApi.pdb
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
+D:\Tech Shop - TDT DEV\Web\WebApi\WebApi\obj\Debug\net6.0\ref\WebApi.dll
+D:\WebApi\WebApi\obj\Debug\net6.0\WebApi.csproj.AssemblyReference.cache
+D:\WebApi\WebApi\obj\Debug\net6.0\rpswa.dswa.cache.json
+D:\WebApi\WebApi\obj\Debug\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebApi\WebApi\obj\Debug\net6.0\WebApi.AssemblyInfoInputs.cache
+D:\WebApi\WebApi\obj\Debug\net6.0\WebApi.AssemblyInfo.cs
+D:\WebApi\WebApi\obj\Debug\net6.0\WebApi.csproj.CoreCompileInputs.cache
+D:\WebApi\WebApi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\WebApi\WebApi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\WebApi\WebApi\obj\Debug\net6.0\WebApi.sourcelink.json
+D:\WebApi\WebApi\obj\Debug\net6.0\WebApi.dll
+D:\WebApi\WebApi\obj\Debug\net6.0\refint\WebApi.dll
+D:\WebApi\WebApi\obj\Debug\net6.0\WebApi.pdb
+D:\WebApi\WebApi\bin\Debug\net6.0\appsettings.Development.json
+D:\WebApi\WebApi\bin\Debug\net6.0\appsettings.json
+D:\WebApi\WebApi\bin\Debug\net6.0\WebApi.staticwebassets.endpoints.json
+D:\WebApi\WebApi\bin\Debug\net6.0\WebApi.staticwebassets.runtime.json
+D:\WebApi\WebApi\bin\Debug\net6.0\WebApi.exe
+D:\WebApi\WebApi\bin\Debug\net6.0\WebApi.deps.json
+D:\WebApi\WebApi\bin\Debug\net6.0\WebApi.runtimeconfig.json
+D:\WebApi\WebApi\bin\Debug\net6.0\WebApi.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\WebApi.pdb
+D:\WebApi\WebApi\bin\Debug\net6.0\Humanizer.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Serilog.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Serilog.AspNetCore.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\WebApi\WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\WebApi\WebApi\obj\Debug\net6.0\rjimswa.dswa.cache.json
+D:\WebApi\WebApi\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+D:\WebApi\WebApi\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+D:\WebApi\WebApi\obj\Debug\net6.0\scopedcss\bundle\WebApi.styles.css
+D:\WebApi\WebApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\WebApi\WebApi\obj\Debug\net6.0\staticwebassets.build.json.cache
+D:\WebApi\WebApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\WebApi\WebApi\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\WebApi\WebApi\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+D:\WebApi\WebApi\obj\Debug\net6.0\WebApi.csproj.Up2Date
+D:\WebApi\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
+D:\WebApi\WebApi\obj\Debug\net6.0\ref\WebApi.dll

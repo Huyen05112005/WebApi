@@ -1,0 +1,66 @@
+2025-10-04 09:04:01.104 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Books/get-book-by-id/1 - -
+2025-10-04 09:04:01.115 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.GetBookById (WebApi)'
+2025-10-04 09:04:01.116 +07:00 [INF] Route matched with {action = "GetBookById", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBookById(Int32) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 09:04:01.118 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:04:01.122 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Title], [t].[Description], [t].[IsRead], [t].[DateRead], [t].[Rate], [t].[Genre], [t].[CoverUrl], [t].[Name], [t].[Id0], [t0].[FullName], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT TOP(1) [b].[Id], [b].[Title], [b].[Description], [b].[IsRead], [b].[DateRead], [b].[Rate], [b].[Genre], [b].[CoverUrl], [p].[Name], [p].[Id] AS [Id0]
+    FROM [Books] AS [b]
+    INNER JOIN [Publishers] AS [p] ON [b].[PublisherID] = [p].[Id]
+    WHERE [b].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [a].[FullName], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookID]
+    FROM [BookAuthors] AS [b0]
+    INNER JOIN [Authors] AS [a] ON [b0].[AuthorID] = [a].[Id]
+) AS [t0] ON [t].[Id] = [t0].[BookID]
+ORDER BY [t].[Id], [t].[Id0], [t0].[Id]
+2025-10-04 09:04:01.124 +07:00 [INF] Executing OkObjectResult, writing value of type 'WebApi.Models.DTO.BookWithAuthorAndPublisherDTO'.
+2025-10-04 09:04:01.126 +07:00 [INF] Executed action WebApi.Controllers.BooksController.GetBookById (WebApi) in 8.5378ms
+2025-10-04 09:04:01.127 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.GetBookById (WebApi)'
+2025-10-04 09:04:01.128 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Books/get-book-by-id/1 - - - 200 - application/json;+charset=utf-8 23.9286ms
+2025-10-04 09:04:01.170 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Books/get-book-by-id/12 - -
+2025-10-04 09:04:01.172 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.GetBookById (WebApi)'
+2025-10-04 09:04:01.173 +07:00 [INF] Route matched with {action = "GetBookById", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBookById(Int32) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 09:04:01.176 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:04:01.181 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Title], [t].[Description], [t].[IsRead], [t].[DateRead], [t].[Rate], [t].[Genre], [t].[CoverUrl], [t].[Name], [t].[Id0], [t0].[FullName], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT TOP(1) [b].[Id], [b].[Title], [b].[Description], [b].[IsRead], [b].[DateRead], [b].[Rate], [b].[Genre], [b].[CoverUrl], [p].[Name], [p].[Id] AS [Id0]
+    FROM [Books] AS [b]
+    INNER JOIN [Publishers] AS [p] ON [b].[PublisherID] = [p].[Id]
+    WHERE [b].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [a].[FullName], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookID]
+    FROM [BookAuthors] AS [b0]
+    INNER JOIN [Authors] AS [a] ON [b0].[AuthorID] = [a].[Id]
+) AS [t0] ON [t].[Id] = [t0].[BookID]
+ORDER BY [t].[Id], [t].[Id0], [t0].[Id]
+2025-10-04 09:04:01.183 +07:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2025-10-04 09:04:01.185 +07:00 [INF] Executed action WebApi.Controllers.BooksController.GetBookById (WebApi) in 9.6606ms
+2025-10-04 09:04:01.186 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.GetBookById (WebApi)'
+2025-10-04 09:04:01.188 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Books/get-book-by-id/12 - - - 204 0 - 17.1861ms
+2025-10-04 09:04:49.843 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7245/api/Books/get-book-by-id/1 - -
+2025-10-04 09:04:49.844 +07:00 [INF] Executing endpoint 'WebApi.Controllers.BooksController.GetBookById (WebApi)'
+2025-10-04 09:04:49.845 +07:00 [INF] Route matched with {action = "GetBookById", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBookById(Int32) on controller WebApi.Controllers.BooksController (WebApi).
+2025-10-04 09:04:49.847 +07:00 [INF] Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.11' with options: None
+2025-10-04 09:04:49.851 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Title], [t].[Description], [t].[IsRead], [t].[DateRead], [t].[Rate], [t].[Genre], [t].[CoverUrl], [t].[Name], [t].[Id0], [t0].[FullName], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT TOP(1) [b].[Id], [b].[Title], [b].[Description], [b].[IsRead], [b].[DateRead], [b].[Rate], [b].[Genre], [b].[CoverUrl], [p].[Name], [p].[Id] AS [Id0]
+    FROM [Books] AS [b]
+    INNER JOIN [Publishers] AS [p] ON [b].[PublisherID] = [p].[Id]
+    WHERE [b].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [a].[FullName], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookID]
+    FROM [BookAuthors] AS [b0]
+    INNER JOIN [Authors] AS [a] ON [b0].[AuthorID] = [a].[Id]
+) AS [t0] ON [t].[Id] = [t0].[BookID]
+ORDER BY [t].[Id], [t].[Id0], [t0].[Id]
+2025-10-04 09:04:49.853 +07:00 [INF] Executing OkObjectResult, writing value of type 'WebApi.Models.DTO.BookWithAuthorAndPublisherDTO'.
+2025-10-04 09:04:49.854 +07:00 [INF] Executed action WebApi.Controllers.BooksController.GetBookById (WebApi) in 8.2276ms
+2025-10-04 09:04:49.855 +07:00 [INF] Executed endpoint 'WebApi.Controllers.BooksController.GetBookById (WebApi)'
+2025-10-04 09:04:49.857 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7245/api/Books/get-book-by-id/1 - - - 200 - application/json;+charset=utf-8 14.0295ms

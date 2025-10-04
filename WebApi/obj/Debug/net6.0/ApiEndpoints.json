@@ -1,21 +1,5 @@
 [
   {
-    "ContainingType": "WebApi.Controllers.BooksController",
-    "Method": "AddBook",
-    "RelativePath": "api/add-book",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "addBookRequestDTO",
-        "Type": "WebApi.Models.DTO.AddBookRequestDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "WebApi.Controllers.AuthorsController",
     "Method": "AddAuthor",
     "RelativePath": "api/Authors/authors",
@@ -128,8 +112,24 @@
   },
   {
     "ContainingType": "WebApi.Controllers.BooksController",
+    "Method": "AddBook",
+    "RelativePath": "api/Books/add-book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addBookRequestDTO",
+        "Type": "WebApi.Models.DTO.AddBookRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.BooksController",
     "Method": "DeleteBookById",
-    "RelativePath": "api/delete-book-by-id/{id}",
+    "RelativePath": "api/Books/delete-book-by-id/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -145,7 +145,7 @@
   {
     "ContainingType": "WebApi.Controllers.BooksController",
     "Method": "GetAll",
-    "RelativePath": "api/get-all-books",
+    "RelativePath": "api/Books/get-all-books",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -186,7 +186,7 @@
   {
     "ContainingType": "WebApi.Controllers.BooksController",
     "Method": "GetBookById",
-    "RelativePath": "api/get-book-by-id/{id}",
+    "RelativePath": "api/Books/get-book-by-id/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -195,6 +195,79 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.BooksController",
+    "Method": "UpdateBookById",
+    "RelativePath": "api/Books/update-book-by-id/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "bookDTO",
+        "Type": "WebApi.Models.DTO.AddBookRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ImagesController",
+    "Method": "GetAllInfoImages",
+    "RelativePath": "api/Images",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ImagesController",
+    "Method": "DownloadImage",
+    "RelativePath": "api/Images/Download",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.ImagesController",
+    "Method": "Upload",
+    "RelativePath": "api/Images/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileDescription",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -273,27 +346,6 @@
       {
         "Name": "publisherNoIdDTO",
         "Type": "WebApi.Models.DTO.PublisherNoIdDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.BooksController",
-    "Method": "UpdateBookById",
-    "RelativePath": "api/update-book-by-id/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "bookDTO",
-        "Type": "WebApi.Models.DTO.AddBookRequestDTO",
         "IsRequired": true
       }
     ],

@@ -1,0 +1,101 @@
+D:\Techshop-TDTDev\Web\WebApi\Library-web\bin\Debug\net6.0\appsettings.Development.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\bin\Debug\net6.0\appsettings.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.staticwebassets.runtime.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.staticwebassets.endpoints.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.exe
+D:\Techshop-TDTDev\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.deps.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.runtimeconfig.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.dll
+D:\Techshop-TDTDev\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.pdb
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\rpswa.dswa.cache.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.AssemblyInfoInputs.cache
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.AssemblyInfo.cs
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.csproj.CoreCompileInputs.cache
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.MvcApplicationPartsAssemblyInfo.cache
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.RazorAssemblyInfo.cache
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.RazorAssemblyInfo.cs
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.sourcelink.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\rjimswa.dswa.cache.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\scopedcss\bundle\Library-web.styles.css
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\scopedcss\projectbundle\Library-web.bundle.scp.css
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.build.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.build.json.cache
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.development.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.dll
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\refint\Library-web.dll
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.pdb
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.genruntimeconfig.cache
+D:\Techshop-TDTDev\Web\WebApi\Library-web\obj\Debug\net6.0\ref\Library-web.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\bin\Debug\net6.0\appsettings.Development.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\bin\Debug\net6.0\appsettings.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.staticwebassets.endpoints.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.staticwebassets.runtime.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.exe
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.deps.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.runtimeconfig.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\bin\Debug\net6.0\Library-web.pdb
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\rpswa.dswa.cache.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.AssemblyInfoInputs.cache
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.AssemblyInfo.cs
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.csproj.CoreCompileInputs.cache
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.MvcApplicationPartsAssemblyInfo.cache
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.RazorAssemblyInfo.cache
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.RazorAssemblyInfo.cs
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\rjimswa.dswa.cache.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\scopedcss\bundle\Library-web.styles.css
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\scopedcss\projectbundle\Library-web.bundle.scp.css
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.build.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.build.json.cache
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.development.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\refint\Library-web.dll
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.pdb
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\Library-web.genruntimeconfig.cache
+D:\Tech Shop - TDT DEV\Web\WebApi\Library-web\obj\Debug\net6.0\ref\Library-web.dll
+D:\WebApi\Library-web\bin\Debug\net6.0\appsettings.Development.json
+D:\WebApi\Library-web\bin\Debug\net6.0\appsettings.json
+D:\WebApi\Library-web\bin\Debug\net6.0\Library-web.staticwebassets.endpoints.json
+D:\WebApi\Library-web\bin\Debug\net6.0\Library-web.staticwebassets.runtime.json
+D:\WebApi\Library-web\bin\Debug\net6.0\Library-web.exe
+D:\WebApi\Library-web\bin\Debug\net6.0\Library-web.deps.json
+D:\WebApi\Library-web\bin\Debug\net6.0\Library-web.runtimeconfig.json
+D:\WebApi\Library-web\bin\Debug\net6.0\Library-web.dll
+D:\WebApi\Library-web\bin\Debug\net6.0\Library-web.pdb
+D:\WebApi\Library-web\obj\Debug\net6.0\rpswa.dswa.cache.json
+D:\WebApi\Library-web\obj\Debug\net6.0\Library-web.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebApi\Library-web\obj\Debug\net6.0\Library-web.AssemblyInfoInputs.cache
+D:\WebApi\Library-web\obj\Debug\net6.0\Library-web.AssemblyInfo.cs
+D:\WebApi\Library-web\obj\Debug\net6.0\Library-web.csproj.CoreCompileInputs.cache
+D:\WebApi\Library-web\obj\Debug\net6.0\Library-web.MvcApplicationPartsAssemblyInfo.cache
+D:\WebApi\Library-web\obj\Debug\net6.0\Library-web.RazorAssemblyInfo.cache
+D:\WebApi\Library-web\obj\Debug\net6.0\Library-web.RazorAssemblyInfo.cs
+D:\WebApi\Library-web\obj\Debug\net6.0\Library-web.sourcelink.json
+D:\WebApi\Library-web\obj\Debug\net6.0\rjimswa.dswa.cache.json
+D:\WebApi\Library-web\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+D:\WebApi\Library-web\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+D:\WebApi\Library-web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\WebApi\Library-web\obj\Debug\net6.0\scopedcss\bundle\Library-web.styles.css
+D:\WebApi\Library-web\obj\Debug\net6.0\scopedcss\projectbundle\Library-web.bundle.scp.css
+D:\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.build.json
+D:\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.build.json.cache
+D:\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.development.json
+D:\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+D:\WebApi\Library-web\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+D:\WebApi\Library-web\obj\Debug\net6.0\Library-web.dll
+D:\WebApi\Library-web\obj\Debug\net6.0\refint\Library-web.dll
+D:\WebApi\Library-web\obj\Debug\net6.0\Library-web.pdb
+D:\WebApi\Library-web\obj\Debug\net6.0\Library-web.genruntimeconfig.cache
+D:\WebApi\Library-web\obj\Debug\net6.0\ref\Library-web.dll

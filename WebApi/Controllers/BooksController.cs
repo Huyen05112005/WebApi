@@ -9,7 +9,7 @@ using WebApi.Repositories;
 
 namespace WebApi.Controllers
 {
-    [Route("api/")]
+    [Route("api/Books")]
     [ApiController]
     public class BooksController : ControllerBase
     {
@@ -19,7 +19,7 @@ namespace WebApi.Controllers
         {
             _bookRepository = bookRepository;
         }
-        [Authorize(Roles = "Read")]
+        //[Authorize(Roles = "Read")]
         [HttpGet("get-all-books")]
         public IActionResult GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuery,
             [FromQuery] string? sortBy, [FromQuery] bool isAscending,
@@ -32,7 +32,7 @@ isAscending, pageNumber, pageSize);
         }
 
         [HttpGet]
-        [Authorize(Roles = "Read")]
+        //[Authorize(Roles = "Read")]
         [Route("get-book-by-id/{id}")]
         public IActionResult GetBookById([FromRoute] int id)
         {
@@ -40,7 +40,7 @@ isAscending, pageNumber, pageSize);
             return Ok(bookWithIdDTO);
         }
 
-        [Authorize(Roles = "Read,Write")]
+        //[Authorize(Roles = "Read,Write")]
         [HttpPost("add-book")]
         public IActionResult AddBook([FromBody] AddBookRequestDTO addBookRequestDTO)
         {
@@ -64,7 +64,7 @@ isAscending, pageNumber, pageSize);
                 return BadRequest(new { message = ex.Message });
             }
         }
-        [Authorize(Roles = "Read,Write")]
+        //[Authorize(Roles = "Read,Write")]
         [HttpPut("update-book-by-id/{id}")]
         public IActionResult UpdateBookById(int id, [FromBody] AddBookRequestDTO bookDTO)
         {
@@ -84,7 +84,7 @@ isAscending, pageNumber, pageSize);
             catch (ArgumentException ex) { return BadRequest(new { message = ex.Message }); }
         }
 
-        [Authorize(Roles = "Read,Write")]
+        //[Authorize(Roles = "Read,Write")]
         [HttpDelete("delete-book-by-id/{id}")]
         public IActionResult DeleteBookById(int id)
         {

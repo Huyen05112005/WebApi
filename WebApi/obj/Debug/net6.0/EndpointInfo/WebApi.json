@@ -196,7 +196,7 @@
         }
       }
     },
-    "/api/get-all-books": {
+    "/api/Books/get-all-books": {
       "get": {
         "tags": [
           "Books"
@@ -256,7 +256,7 @@
         }
       }
     },
-    "/api/get-book-by-id/{id}": {
+    "/api/Books/get-book-by-id/{id}": {
       "get": {
         "tags": [
           "Books"
@@ -279,7 +279,7 @@
         }
       }
     },
-    "/api/add-book": {
+    "/api/Books/add-book": {
       "post": {
         "tags": [
           "Books"
@@ -310,7 +310,7 @@
         }
       }
     },
-    "/api/update-book-by-id/{id}": {
+    "/api/Books/update-book-by-id/{id}": {
       "put": {
         "tags": [
           "Books"
@@ -352,7 +352,7 @@
         }
       }
     },
-    "/api/delete-book-by-id/{id}": {
+    "/api/Books/delete-book-by-id/{id}": {
       "delete": {
         "tags": [
           "Books"
@@ -362,6 +362,88 @@
             "name": "id",
             "in": "path",
             "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Images/Upload": {
+      "post": {
+        "tags": [
+          "Images"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "File",
+                  "FileName"
+                ],
+                "type": "object",
+                "properties": {
+                  "File": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "FileName": {
+                    "type": "string"
+                  },
+                  "FileDescription": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "File": {
+                  "style": "form"
+                },
+                "FileName": {
+                  "style": "form"
+                },
+                "FileDescription": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Images": {
+      "get": {
+        "tags": [
+          "Images"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Images/Download": {
+      "get": {
+        "tags": [
+          "Images"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
